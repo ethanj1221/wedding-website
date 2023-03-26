@@ -50,10 +50,7 @@ const Rsvp = () => {
         "Let's continue the celebration with drinks, dancing, and great company.",
       details: [
         { title: "Starting Location", description: "Marna's Eatery" },
-        {
-          title: "Airbnb Location",
-          description: "2209 Aldrich Ave S, Minneapolis, MN 55405",
-        },
+
         { title: "Attire", description: "Casual" },
         { title: "Date & Time", description: "July 29th, 2023 - 10:00 PM" },
         { title: "RSVP by", description: "May 31st, 2023" },
@@ -65,13 +62,12 @@ const Rsvp = () => {
       description:
         "Let's continue the celebration with drinks, dancing, and great company.",
       details: [
-        { title: "Starting Location", description: "Marna's Eatery" },
         {
           title: "Airbnb Location",
           description: "2209 Aldrich Ave S, Minneapolis, MN 55405",
         },
-        { title: "Attire", description: "Casual" },
-        { title: "Date & Time", description: "July 29th, 2023 - 10:00 PM" },
+        { title: "Check In", description: "July 29th, 2023 - 3:00 PM" },
+        { title: "Check Out", description: "July 30th, 2023 - 11:00 AM" },
         { title: "RSVP by", description: "May 31st, 2023" },
       ],
       note: "Please check schedule for timeline. We will be providing an Airbnb for those who would like to stay the night and get ready. For those who have RSVPed for the Airbnb, rooms are first come first serve. Checkin is at 3 PM and checkout is at 11 AM.",
@@ -81,6 +77,26 @@ const Rsvp = () => {
     <div>
       <Navbar />
       <div className="px-4 sm:px-5 lg:px-20 mx-auto  py-16 mt-10 sm:mt-16">
+        <div className="flex justify-center mb-20 sm:mb-36">
+          <div className="bg-gray-900 text-white rounded-lg shadow-md p-6 relative flex flex-col sm:flex-row justify-center items-center space-y-5 sm:space-y-0 max-w-screen-md ">
+            <p className="text-lg sm:text-xl">
+              <strong>
+                {" "}
+                Please click the RSVP button to fill out the RSVP Google Form
+              </strong>{" "}
+              according to your invitation and information below.
+            </p>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="  rounded-full bg-white py-2.5 px-6 text-lg font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd2hh7PQ8aqqFlVFke30zFod7xwdYYsvJJwkc-y-z6IJvgDdQ/viewform?usp=sf_link"
+            >
+              RSVP
+            </a>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {sections.map((section) => (
             <div className="bg-gray-900 text-white rounded-lg shadow-md p-6 relative flex flex-col justify-between ">
@@ -114,30 +130,6 @@ const Rsvp = () => {
                   Makeup Services
                 </a>
               )}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="mt-7 w-min rounded-full bg-white py-2.5 px-6 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
-                href={`mailto:bernhagen.jung@gmail.com?subject=RSVP%20-%20${
-                  section.title
-                }&body=Guests:%0D%0A-%0D%0A${
-                  section.title === "Getting Ready"
-                    ? "Makeup/Grooming%20Services%20Required:%0D%0A-"
-                    : ""
-                }${
-                  section.title === "Getting Ready" ||
-                  section.title === "Ceremony and Reception" ||
-                  section.title === "Rehersal"
-                    ? "%0D%0A%0D%0ADietary%20Restrictions:%0D%0A-"
-                    : ""
-                }%0D%0A${
-                  section.title === "Afterparty"
-                    ? "Staying%20at%20Airbnb%20(Yes%20or%20No%20%2B%20Names):%0D%0A-"
-                    : ""
-                }%0D%0A`}
-              >
-                RSVP
-              </a>
             </div>
           ))}
         </div>
