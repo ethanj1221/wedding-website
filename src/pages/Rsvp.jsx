@@ -58,7 +58,7 @@ const Rsvp = () => {
       note: "Please check schedule for timeline. We will be providing an Airbnb for those who would like to stay the night and get ready. For those who have RSVPed for the Airbnb, rooms are first come first serve. Checkin is at 3 PM and checkout is at 11 AM.",
     },
     {
-      title: "Airbnb Accomidations",
+      title: "Airbnb Accommodations",
       description:
         "Let's continue the celebration with drinks, dancing, and great company.",
       details: [

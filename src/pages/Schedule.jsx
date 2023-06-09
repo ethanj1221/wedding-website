@@ -15,12 +15,12 @@ const Schedule = () => {
         "Check the invitation for the location of the rehearsal dinner. We'll be having a nice dinner to celebrate the wedding and get to know each other better.",
       time: "7:30 PM - Thursday, July 27th",
     },
-    {
-      title: "Getting Ready",
-      description:
-        "If you would like to join us for the getting ready process feel free to join us. There will be more information on the RSVP and we'll be sending details.",
-      time: "10:00 AM - Saturday, July 29th",
-    },
+    // {
+    //   title: "Getting Ready",
+    //   description:
+    //     "If you would like to join us for the getting ready process feel free to join us. There will be more information on the RSVP and we'll be sending details.",
+    //   time: "10:00 AM - Saturday, July 29th",
+    // },
     {
       title: "Pictures",
       description: "Those in the wedding party will be taking pictures at the Como Park Conservatory. Meetup at the front entrance.",
