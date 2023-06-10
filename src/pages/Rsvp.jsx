@@ -15,21 +15,21 @@ const Rsvp = () => {
       note: "Please note that this is a private event for the wedding party only. In the email please list guest names and any dietary restrictions.",
     },
 
-    {
-      title: "Getting Ready",
-      description:
-        "If you would like to start the day with us, please let us know. We would love to have you!",
-      details: [
-        { title: "Location", description: "2431 Churchill St. Roseville, MN" },
-        { title: "Attire", description: "Casual" },
-        { title: "Date & Time", description: "July 29th, 2023 - 10:00 AM" },
-        { title: "RSVP by", description: "May 31st, 2023" },
-      ],
-      note: `Join us anytime after 10 AM. We will be getting ready and having coffee and appetizers throughout the day.  
-      \n\n
-      For those who are interested, there will be a makeup/grooming professional for service and email us what you would like to have done. 
-    `,
-    },
+    // {
+    //   title: "Getting Ready",
+    //   description:
+    //     "If you would like to start the day with us, please let us know. We would love to have you!",
+    //   details: [
+    //     { title: "Location", description: "2431 Churchill St. Roseville, MN" },
+    //     { title: "Attire", description: "Casual" },
+    //     { title: "Date & Time", description: "July 29th, 2023 - 10:00 AM" },
+    //     { title: "RSVP by", description: "May 31st, 2023" },
+    //   ],
+    //   note: `Join us anytime after 10 AM. We will be getting ready and having coffee and appetizers throughout the day.  
+    //   \n\n
+    //   For those who are interested, there will be a makeup/grooming professional for service and email us what you would like to have done. 
+    // `,
+    // },
 
     {
       title: "Ceremony and Reception",
