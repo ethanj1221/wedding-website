@@ -8,6 +8,10 @@ const faqs = [
     answer: "Please RSVP by May 31st, 2023.",
   },
   {
+    question: "Parking at Marna's Eatery & Airbnb",
+    answer: "There is overnight parking in the parking lot at Marna's Eatery. There is street parking at the Airbnb"
+  },
+  {
     question: `Can I RSVP online or do I have to mail in an RSVP card?`,
     answer: `Please RSVP online using the RSVP tab above. If you are unable to RSVP online, please mail in an RSVP card to the address listed on the RSVP card.`,
   },
