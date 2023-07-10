@@ -9,14 +9,7 @@ const Travel = () => {
         <div class="bg-gray-900 text-white rounded-lg flex justify-center flex-col items-center shadow-md p-6 relative max-w-screen-md ">
           <h2 class="text-2xl font-semibold mb-4">Travel Accommodations</h2>
           <p class="mb-4">
-            We have arranged an Airbnb for guests who would like to stay
-            overnight after the afterparty. If you're interested, please RSVP on
-            the RSVP page as spots are limited. The check-in time for the Airbnb
-            is 3pm on July 29th, and check-out time is 11am on July 30th. The
-            address for the Airbnb is 2209 Aldrich Ave S, Minneapolis, MN 55405.
-            To make the check-in process as smooth as possible, we will create a
-            group chat for the Airbnb guests closer to the wedding date,
-            providing all the necessary information for self check-in.
+            Due to a low number of out of town guests, we will no longer be renting an Airbnb. We will not be staying at our apartment the night of the wedding, so we will instead be opening it to out of town guests. Please let us know if you would like to stay at our apartment.
           </p>
           <ul className="list-disc flex flex-col ">
             {" "}

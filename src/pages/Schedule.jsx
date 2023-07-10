@@ -57,12 +57,6 @@ const Schedule = () => {
         "Join us for some post-wedding fun in downtown Minneapolis! We'll be hopping from bar to bar, and you're welcome to catch up with us at any point.",
       time: "10:15 PM - Saturday, July 29th",
     },
-    {
-      title: "Bus Departs to Airbnb",
-      description: `
-For anyone who wants to stay the night, we have an Airbnb reserved just for you! The party bus will be taking guests back to the Airbnb for the night, where we'll be spending the rest of the evening until the next morning.`,
-      time: "1:00 AM - Sunday, July 30th",
-    },
   ];
   const sections = [
     {

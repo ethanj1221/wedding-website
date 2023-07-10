@@ -55,22 +55,7 @@ const Rsvp = () => {
         { title: "Date & Time", description: "July 29th, 2023 - 10:00 PM" },
         { title: "RSVP by", description: "May 31st, 2023" },
       ],
-      note: "Please check schedule for timeline. We will be providing an Airbnb for those who would like to stay the night and get ready. For those who have RSVPed for the Airbnb, rooms are first come first serve. Checkin is at 3 PM and checkout is at 11 AM.",
-    },
-    {
-      title: "Airbnb Accommodations",
-      description:
-        "Let's continue the celebration with drinks, dancing, and great company.",
-      details: [
-        {
-          title: "Airbnb Location",
-          description: "2209 Aldrich Ave S, Minneapolis, MN 55405",
-        },
-        { title: "Check In", description: "July 29th, 2023 - 3:00 PM" },
-        { title: "Check Out", description: "July 30th, 2023 - 11:00 AM" },
-        { title: "RSVP by", description: "May 31st, 2023" },
-      ],
-      note: "Please check schedule for timeline. We will be providing an Airbnb for those who would like to stay the night and get ready. For those who have RSVPed for the Airbnb, rooms are first come first serve. Checkin is at 3 PM and checkout is at 11 AM.",
+      note: "Please check schedule for timeline. Due to a low number of out of town guests, we will no longer be renting an Airbnb. We will not be staying at our apartment the night of the wedding, so we will instead be opening it to out of town guests. Please let us know if you would like to stay at our apartment.",
     },
   ];
   return (

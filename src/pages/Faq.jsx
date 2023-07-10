@@ -8,8 +8,8 @@ const faqs = [
     answer: "Please RSVP by May 31st, 2023.",
   },
   {
-    question: "Parking at Marna's Eatery & Airbnb",
-    answer: "There is overnight parking in the parking lot at Marna's Eatery. There is street parking at the Airbnb"
+    question: "Parking at Marna's Eatery",
+    answer: "There is overnight parking in the parking lot at Marna's Eatery."
   },
   {
     question: `Can I RSVP online or do I have to mail in an RSVP card?`,
@@ -26,12 +26,8 @@ const faqs = [
      The address for Como Park Zoo Convervatory is 1225 Estabrook Dr, St Paul, MN 55103. The address for Marna's Eatery is 4154 W Broadway Ave, Minneapolis, MN 55422.`,
   },
   {
-    question: `Afterparty Airbnb`,
-    answer: `We have an Airbnb for those who need a place to stay after the afterparty. Please remember to RSVP on the RSVP page, spots will be spoken for. Checkin is at 3pm on July 29th. Checkout is at 11AM on July 30th. The address for the Airbnb is 2209 Aldrich Ave S, Minneapolis, MN 55405.`,
-  },
-  {
-    question: `How do I checkin to the Afterparty Airbnb`,
-    answer: `Closer to the date of the wedding, we will create a group chat for the Airbnb. It will be self checkin.`,
+    question: `Out of town guests, where should I stay?`,
+    answer: `Due to a low number of out of town guests, we will no longer be renting an Airbnb. We will not be staying at our apartment the night of the wedding, so we will instead be opening it to out of town guests. Please let us know if you would like to stay at our apartment.`,
   },
   {
     question: `What is the wedding registry?`,
